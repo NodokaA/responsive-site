@@ -15,9 +15,9 @@ body{
     background-image:url(../images/aroma.jpg);
     background-size: cover;
     font-family: 'Lobster', cursive;
-    color:#fdede4;
-    text-shadow: 5px 5px 2px #999999;
-    font-size: 50px;
+    color:#ffe0ff;
+    text-shadow: 6px 6px 2px #999999;
+    font-size: 60px;
     padding: 20px auto;
   
 }
@@ -63,13 +63,13 @@ footer .bottom{
     margin: 20px auto;
     padding: 10px;
 
-    color: #d2b48c;
-    border: 2px solid#e6e6fa;
+    color: #7b5544;
+    border: 1px solid#7b5544;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
     
-    background-color: #fef4f4;
+    background-color: #ffe0ff;
 }
 @media (max-width: 768px) {
   .container {
@@ -83,4 +83,12 @@ footer .bottom{
   .top{
       height: 250px;
   }
+}
+
+@media (min-width: 769px) {
+#text{
+    margin: 5px;
+     display:flex;
+    align-items: stretch;
+}
 }
